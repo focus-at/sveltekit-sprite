@@ -33,7 +33,7 @@ function sveltekitSprite({
           console.error("[sveltekit-sprite:error] generating sprite:", error);
       }
   }
-  
+
   return {
     name: "sveltekit-sprite",
     async buildStart() {
