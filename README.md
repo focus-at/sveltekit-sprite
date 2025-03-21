@@ -186,7 +186,7 @@ Here's a breakdown of the available options:
      },
    });
    ```
-**Important Notes about `svgoOptions`:**
+**⚠️ Important Notes about `svgoOptions`:**
 
 *   If you set `presetDefault` to `false`, you'll typically want to specify the `plugins` option to configure the optimizations you want to apply.  Otherwise, no optimizations will occur.
 *   For building the sprite from folder the plugin add  `removeViewBox: false` option.
